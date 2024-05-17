@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+#home {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#about {
+    background-color: #e9e9e9;
+}
+
+#skills {
+    background-color: #f4f4f4;
+}
+
+#projects {
+    background-color: #e9e9e9;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+#Certifications {
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 70vh; /* Set the height of the container to 50% of the viewport height */
+}
+
+.container img {
+    width: 30%; /* Set the width of the image to 30% */
+    height: 100%; /* Set the height of the image to 100% of the container height */
+    object-fit: cover;
+    margin-right: 10px; /* Add margin to the right of the image */
+}
+.text-content {
+    padding: 20px;
+    width: 70%; /* Set the width of the text content to 70% */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%; /* Set the height of the text content to 100% of the container height */
+}
+.text-content h3,
+.text-content h1,
+.text-content h4 {
+    margin: 5px 0;
+}
+.text-content h1 {
+    color: blue;
+}
+.long {
+    display: none; /* Initially hide the long paragraph */
+}
+
+.read-more-btn {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+#contact a[href^="mailto"] {
+    color: red;
+}
+.linkedin .logo {
+    color: #0e76a8; /* LinkedIn brand color */
+}
+.facebook .logo {
+    color: #1877f2; /* Facebook brand color */
+}
+.instagram .logo {
+    color: #e4405f; /* Instagram brand color */
+}
+.logo:hover{
+    transform:0.5s;
+    color: black;
+}
+

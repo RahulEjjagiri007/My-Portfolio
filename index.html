@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#Certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+        <p>This is where you can learn more about me and my work.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        
+        <div class="container">
+            <img src="image.1.jpg" alt="Image">
+            <div class="text-content">
+                <h3>HI</h3>
+                <h1>i'am <span style="color: blue;">EJJAGIRI RAHUL</span></h1>
+            <h4>who loves coding and creating beautiful websites.</h4>
+            <p class="short">Passionate about Web Development: I find immense joy in web development. It's not just about writing code; it's about crafting digital experiences that are both functional and aesthetically pleasing Passionate about Web Development: I find immense joy in web development. It's not just about writing code; it's about crafting digital experiences that are both functional and aesthetically pleasing. I love the challenge of problem-solving and the satisfaction that comes with seeing my projects come to life on the web Interest in the Real World: I have a strong preference for real-world experiences. While technology is fascinating, I find inspiration in the tangible aspects of life. Whether it's exploring nature, engaging with people, or simply observing my surroundings, I draw a lot of my ideas and creativity from the real world. Value Physical Fitness: Physical fitness is a priority for me. I believe in taking care of my body and staying active. Whether it's hitting the gym, going for a run outdoors, or trying out new sports, I make sure to incorporate physical activity into my routine. I understand that a healthy body is essential for supporting my overall lifestyle and goals. Friendship and Enjoyment: Beyond my professional and personal pursuits, I cherish spending quality time with friends. Whether it's catching up over coffee, exploring new places together, or simply sharing a laugh, the bonds I have with my friends bring immense joy and fulfillment to my life. We often enjoy movie nights or go out to watch the latest films, adding a touch of entertainment and relaxation to our busy schedules. In summary, I thrive on the synergy between the virtual and physical realms, all while valuing personal connections and maintaining a healthy lifestyle. Balancing my passion for technology with real-world experiences, friendships, and moments of leisure allows me to lead a well-rounded and satisfying life....</p>
+            <p class="long"> 
+                <b> MY EDUCATION </b><br></br>
+                 Present im studying at MVSR Engineering in the field of Electronic and Communication(ECE).<br>i completed my schooling in 2019 with 9.2 GPA at LFGS.<br>i have completed my intermediate with 87% at sri chaithanya junior collage ,HYD</br> </p>
+            <button class="read-more-btn" onclick="toggleText()">Read More</button>
+        </div>
+    </div>
+
+    <script>
+        function toggleText() {
+            var shortText = document.querySelector('.short');
+            var longText = document.querySelector('.long');
+            var btn = document.querySelector('.read-more-btn');
+
+            if (shortText.style.display === "none") {
+                shortText.style.display = "block";
+                longText.style.display = "none";
+                btn.innerText = "Read More";
+            } else {
+                shortText.style.display = "none";
+                longText.style.display = "block";
+                btn.innerText = "Read Less";
+            }
+        }
+    </script>
+
+
+
+
+ 
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <p>non-techical skills</p>
+            <li>problem solving</li>
+            <li>time management,team work,communicaton</li>
+            </li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>1. “RFID BASED PETROL PUMP AUTOMATION SYSTEM”</h3>
+            <p>Description of project.</p>
+            <p>through UART interfaces. AC pump operated by relay which is connected to Arduino digital pin. 4X4 matrix keypad connected to Arduino digital pins.
+            <br>In this project initially we have to swipe RFID card and need to enter password. If password is correct then it asks amount. After entering amount pump will ON and fuel will dispense according to amount. For wrong password buzzer will be ON. Amount will reduced from RFID card based on entered amount.</br>
+            </p>
+
+            <h3>2. “A NETFLIX HOMEPAGE CLONE”</h3>
+            <p>Description of project.</p>
+            <p>The Netflix clone project is a web application developed using HTML and CSS, aiming to replicate the user interface and some features of the popular streaming service, Netflix.</br>
+            </p>
+        </div>
+
+    </section>
+
+    <section id="Certifications">
+        <h2>Certifications/ Achievements</h2>
+        <ul>
+            <li>Certificate for the completion of C and PYTHON training</li>
+               <li> Participated in real world applications of AI&ML</li>
+                <li>Certificate for the completion of LaTeX training</li>
+                <li>Certificate for the completion of introduction to computers training</li>
+                <li>Value-added course on Java and Database Programming</li>
+        </ul>
+
+        
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>You can reach me at <a href="mailto:ejjagirirahul2003@gmail.com">ejjagirirahul2003@gmail.com</a></p>
+        <div class="logos">
+            <a href="https://www.linkedin.com/in/rahul-ejjagiri-298399239" class="linkedin"><i class="fab fa-linkedin fa-2x logo"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100073851922753&mibextid=ZbWKwL" class="facebook"><i class="fab fa-facebook-square fa-2x logo"></i></a>
+            <a href="https://www.instagram.com/invites/contact/?igsh=11t668zg6r4lh&utm_content=cgjv4j5" class="instagram"><i class="fab fa-instagram fa-2x logo"></i></a>
+        </div>
+    </section>    
+
+    <footer>
+        <p>&copy; 2024 My Portfolio.</p>
+    </footer>
+
+</body>
+</html>
